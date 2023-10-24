@@ -1,3 +1,22 @@
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
+# Création d'une application web de location immobilière avec React
+
+## Contenu:
+
+Vous retrouverez, ici, le code de mon portfolio. Bonne découverte !
+
+## Technologie:
+
+-   JavaScript
+-   SCSS
+-   React
+-   React Router
+
+## Lien github-pages:
+
+-   [Lien GitHub Pages](https://lb-squishy.github.io/portfolio/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
