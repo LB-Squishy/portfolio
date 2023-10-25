@@ -11,8 +11,26 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 button {
     background: none;
     border: none;
     cursor: pointer;
+}
+
+header,
+main,
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
