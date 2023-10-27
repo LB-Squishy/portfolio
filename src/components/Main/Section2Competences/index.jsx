@@ -72,11 +72,11 @@ function SectionCompetences() {
                         <p>API Rest</p>
                     </div>
                 </div>
+                <div className="softskills-line"></div>
                 <div className="softskills">
                     <p>Rigoureux</p>
                     <p>Autonome</p>
                     <p>Perséverant</p>
-                    <p>Esprit d'équipe</p>
                     <p>Créatif</p>
                     <p>Curieux</p>
                     <p>Autodidacte</p>
