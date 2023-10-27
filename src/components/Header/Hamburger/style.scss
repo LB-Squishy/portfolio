@@ -1,0 +1,98 @@
+@import "../../../styles/utils/mixins.scss";
+@import "../../../styles/utils/variables.scss";
+
+.hamburger-menu {
+    position: relative;
+    z-index: 2;
+    height: 35px;
+    width: 35px;
+    &:hover {
+        border: solid 2px;
+        border-color: $greyLight;
+        border-radius: 5px;
+    }
+    &__bar {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 4px;
+        background-color: $primary;
+        border-radius: 2px;
+        transition: transform 0.6s, opacity 0.3s, top 0.6s;
+    }
+    &.active .bar-top {
+        transform: translate(-50%, -50%) rotate(-315deg) scale(1.2);
+        top: 50%;
+    }
+    &.active .bar-mid {
+        opacity: 0;
+    }
+    &.active .bar-bot {
+        transform: translate(-50%, -50%) rotate(-225deg) scale(1.2);
+        top: 50%;
+    }
+}
+
+.bar-top {
+    top: 25%;
+}
+.bar-bot {
+    top: 75%;
+}
+
+.hidden-menu__container {
+    position: fixed;
+    top: -400px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    width: 100%;
+    height: 400px;
+    padding-top: 120px;
+    background-color: $grey;
+    transition: top 0.5s;
+    &.active {
+        top: 0;
+    }
+    @include desktop {
+        right: -350px;
+        width: 350px;
+        height: 2000px;
+        transition: right 0.5s;
+        &.active {
+            right: 0;
+        }
+    }
+    &--link {
+        position: relative;
+        display: inline-block;
+        color: $white;
+        font-size: 25px;
+        font-weight: 200;
+        &:hover {
+            color: $primary;
+            font-weight: 400;
+        }
+        &:active {
+            font-weight: 200;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: $primary;
+            transition: width 0.3s;
+        }
+        &:hover::after {
+            width: 100%;
+        }
+    }
+}

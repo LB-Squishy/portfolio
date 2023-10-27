@@ -4,10 +4,10 @@ import "./style.scss";
  *
  */
 
-function SectionCompetences() {
+function SectionContact() {
     return (
-        <section id="competence">
-            <div className="section-competence-container">
+        <section id="contact">
+            <div className="section-contact-container">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                 asperiores sed, dolores nemo, voluptates repudiandae a deserunt
                 commodi nobis adipisci quis quaerat alias corporis sit? Facilis
@@ -55,4 +55,4 @@ function SectionCompetences() {
     );
 }
 
-export default SectionCompetences;
+export default SectionContact;

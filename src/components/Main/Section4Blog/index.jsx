@@ -4,10 +4,10 @@ import "./style.scss";
  *
  */
 
-function SectionCompetences() {
+function SectionBlog() {
     return (
-        <section id="competence">
-            <div className="section-competence-container">
+        <section id="blog">
+            <div className="section-blog-container">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                 asperiores sed, dolores nemo, voluptates repudiandae a deserunt
                 commodi nobis adipisci quis quaerat alias corporis sit? Facilis
@@ -55,4 +55,4 @@ function SectionCompetences() {
     );
 }
 
-export default SectionCompetences;
+export default SectionBlog;

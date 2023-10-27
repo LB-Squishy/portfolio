@@ -1,0 +1,72 @@
+@import "../../../styles/utils/mixins.scss";
+@import "../../../styles/utils/variables.scss";
+
+#about {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 100px);
+}
+
+.h2-hidden {
+    display: none;
+}
+
+.h3-about {
+    font-size: 20px;
+    color: $greyLight;
+    @include touchpad {
+        font-size: 30px;
+    }
+    @include desktop {
+        font-size: 35px;
+    }
+}
+
+.section-about-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: $greyLight;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 30px 0 30px;
+    @include desktop {
+        flex-direction: row;
+        gap: 100px;
+        max-width: 1440px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 20px;
+        width: auto;
+        padding-bottom: 30px;
+        @include desktop {
+            width: 50%;
+            height: auto;
+            padding: 0;
+        }
+    }
+    &__portrait {
+        display: none;
+        @include touchpad {
+            display: flex;
+            align-self: center;
+            height: auto;
+            max-height: 250px;
+        }
+        @include desktop {
+            align-self: end;
+            width: 50%;
+            height: auto;
+            max-height: none;
+        }
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 @import "../utils/variables.scss";
 
 * {
+    cursor: inherit;
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
     margin: 0;
@@ -21,10 +22,14 @@ li {
     align-items: center;
 }
 
+body {
+    cursor: url("../../assets/default.png"), default;
+}
+
 button {
     background: none;
     border: none;
-    cursor: pointer;
+    cursor: url("../../assets/pointer.png"), pointer;
 }
 
 header,
