@@ -26,7 +26,11 @@ function Hamburger() {
                 }`}
             >
                 <li>
-                    <a href="#about" className="hidden-menu__container--link">
+                    <a
+                        href="#about"
+                        className="hidden-menu__container--link"
+                        onClick={toggleMenu}
+                    >
                         A Propos
                     </a>
                 </li>
@@ -34,22 +38,35 @@ function Hamburger() {
                     <a
                         href="#competences"
                         className="hidden-menu__container--link"
+                        onClick={toggleMenu}
                     >
                         Compétence
                     </a>
                 </li>
                 <li>
-                    <a href="#projet" className="hidden-menu__container--link">
+                    <a
+                        href="#projet"
+                        className="hidden-menu__container--link"
+                        onClick={toggleMenu}
+                    >
                         Projet
                     </a>
                 </li>
                 <li>
-                    <a href="#blog" className="hidden-menu__container--link">
+                    <a
+                        href="#blog"
+                        className="hidden-menu__container--link"
+                        onClick={toggleMenu}
+                    >
                         Blog
                     </a>
                 </li>
                 <li>
-                    <a href="#contact" className="hidden-menu__container--link">
+                    <a
+                        href="#contact"
+                        className="hidden-menu__container--link"
+                        onClick={toggleMenu}
+                    >
                         Contact
                     </a>
                 </li>
