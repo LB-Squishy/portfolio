@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "image": "javascript",
+        "alt": "logojavascript"
+    },
+    {
+        "id": "2",
+        "image": "react",
+        "alt": "logoreact"
+    },
+    {
+        "id": "3",
+        "image": "nodejs",
+        "alt": "logonodejs"
+    },
+    {
+        "id": "4",
+        "image": "redux",
+        "alt": "logoredux"
+    },
+    {
+        "id": "5",
+        "image": "sass",
+        "alt": "logosass"
+    },
+    {
+        "id": "6",
+        "image": "photoshop",
+        "alt": "logophotoshop"
+    },
+    {
+        "id": "7",
+        "image": "github",
+        "alt": "logogithub"
+    },
+    {
+        "id": "8",
+        "image": "notion",
+        "alt": "logonotion"
+    },
+    {
+        "id": "9",
+        "image": "figma",
+        "alt": "logofigma"
+    },
+    {
+        "id": "10",
+        "image": "swagger",
+        "alt": "logoswagger"
+    },
+    {
+        "id": "11",
+        "image": "vscode",
+        "alt": "logovscode"
+    },
+    {
+        "id": "12",
+        "image": "indesign",
+        "alt": "logoindesign"
+    }
+]

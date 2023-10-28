@@ -45,20 +45,6 @@
         @include desktop {
             gap: 30px;
         }
-        &--style {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 64px;
-            width: 64px;
-            border: 2px solid $white;
-            border-radius: 32px;
-            & img {
-                display: flex;
-                height: 70%;
-                width: 70%;
-            }
-        }
     }
     &__line {
         display: block;
