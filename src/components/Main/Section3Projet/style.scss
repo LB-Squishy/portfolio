@@ -8,12 +8,52 @@
 
 .section-projet-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 100%;
     font-size: 20px;
     font-weight: 200;
-    padding: 30px;
+    padding: 100px 30px;
     @include desktop {
         max-width: 1440px;
     }
+    &__title {
+        color: $greyLight;
+    }
+}
+
+.filtres-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 50px 100px 50px;
+    &:hover {
+        cursor: url("../../../assets/pointer.png"), pointer;
+    }
+    &__btn {
+        display: flex;
+        border: 1px solid $primary;
+        border-radius: 30px;
+        padding: 5px 20px;
+        &:hover {
+            background-color: $greyLight;
+            color: $white;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+        }
+        &:active {
+            background-color: $white;
+            color: $black;
+            box-shadow: none;
+        }
+    }
+}
+
+.projet-container {
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+    align-items: center;
+    gap: 80px;
 }

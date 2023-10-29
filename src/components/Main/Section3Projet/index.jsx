@@ -1,55 +1,36 @@
 import "./style.scss";
-
+import ProjetCard from "./ProjetCard";
+import projets from "../../../data/projets.json";
 /**
  *
  */
 
-function SectionProjet() {
+function SectionProjet(title) {
     return (
         <section id="projet">
             <div className="section-projet-container">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                asperiores sed, dolores nemo, voluptates repudiandae a deserunt
-                commodi nobis adipisci quis quaerat alias corporis sit? Facilis
-                molestiae vero est et? Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Et minus sit delectus dolore amet architecto
-                aut, neque ipsum quas distinctio quos ad nostrum ducimus
-                pariatur, quo, dolores blanditiis dolor aliquam. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Dolore ducimus
-                illo libero nihil corrupti eos provident, consequuntur inventore
-                nesciunt ut. Velit expedita nam ullam nostrum, eligendi mollitia
-                optio tempore laudantium!Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Harum asperiores sed, dolores nemo, voluptates
-                repudiandae a deserunt commodi nobis adipisci quis quaerat alias
-                corporis sit? Facilis molestiae vero est et? Lorem ipsum, dolor
-                sit amet consectetur adipisicing elit. Et minus sit delectus
-                dolore amet architecto aut, neque ipsum quas distinctio quos ad
-                nostrum ducimus pariatur, quo, dolores blanditiis dolor aliquam.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                ducimus illo libero nihil corrupti eos provident, consequuntur
-                inventore nesciunt ut. Velit expedita nam ullam nostrum,
-                eligendi mollitia optio tempore laudantium!Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Harum asperiores sed,
-                dolores nemo, voluptates repudiandae a deserunt commodi nobis
-                adipisci quis quaerat alias corporis sit? Facilis molestiae vero
-                est et? Lorem ipsum, dolor sit amet consectetur adipisicing
-                elit. Et minus sit delectus dolore amet architecto aut, neque
-                ipsum quas distinctio quos ad nostrum ducimus pariatur, quo,
-                dolores blanditiis dolor aliquam. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Dolore ducimus illo libero nihil
-                corrupti eos provident, consequuntur inventore nesciunt ut.
-                Velit expedita nam ullam nostrum, eligendi mollitia optio
-                tempore laudantium!Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Harum asperiores sed, dolores nemo, voluptates
-                repudiandae a deserunt commodi nobis adipisci quis quaerat alias
-                corporis sit? Facilis molestiae vero est et? Lorem ipsum, dolor
-                sit amet consectetur adipisicing elit. Et minus sit delectus
-                dolore amet architecto aut, neque ipsum quas distinctio quos ad
-                nostrum ducimus pariatur, quo, dolores blanditiis dolor aliquam.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                ducimus illo libero nihil corrupti eos provident, consequuntur
-                inventore nesciunt ut. Velit expedita nam ullam nostrum,
-                eligendi mollitia optio tempore laudantium!
+                <h2 className="section-projet-container__title">Mes Projets</h2>
+                <div className="filtres-container">
+                    <div className="filtres-container__btn">Tous</div>
+                    <div className="filtres-container__btn">Formation</div>
+                    <div className="filtres-container__btn">Professionnels</div>
+                    <div className="filtres-container__btn">En Cours</div>
+                    <div className="filtres-container__btn">Terminés</div>
+                </div>
+                <div className="projet-container">
+                    {projets.map((projet) => (
+                        <ProjetCard
+                            key={`projet-${projet.id}`}
+                            title={projet.title}
+                            description={projet.description}
+                            image={projet.image}
+                            alt={projet.alt}
+                            linkPage={projet.linkPage}
+                            linkCode={projet.linkCode}
+                            logos={projet.logos}
+                        />
+                    ))}
+                </div>
             </div>
         </section>
     );

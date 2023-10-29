@@ -3,6 +3,7 @@
 
 header {
     position: fixed;
+    z-index: 2;
     background-color: $white;
 }
 
@@ -17,7 +18,6 @@ header {
         max-width: 1440px;
     }
     &__logo {
-        z-index: 2;
         padding: 30px 30px;
         cursor: url("../../assets/pointer.png"), pointer;
         &--content {

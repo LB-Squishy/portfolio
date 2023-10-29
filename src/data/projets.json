@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "title": "Booki",
+        "description": "Intégration de la page d'accueil responsive d'une agence de voyage avec HTML & CSS à partir d'une maquette figma.",
+        "type": "Formation",
+        "stade": "Terminé",
+        "image": "booki",
+        "alt": "chambre booki",
+        "logos": ["html", "css"],
+        "linkCode": "https://github.com/LB-Squishy/site-booki-new.git",
+        "linkPage": "https://lb-squishy.github.io/site-booki-new/"
+    },
+    {
+        "id": "2",
+        "title": "Booki",
+        "description": "Intégration de la page d'accueil responsive d'une agence de voyage avec HTML & CSS à partir d'une maquette figma.",
+        "type": "Formation",
+        "stade": "Terminé",
+        "image": "booki",
+        "alt": "chambre booki",
+        "logos": ["redux", "sass"],
+        "linkCode": "https://github.com/LB-Squishy/site-booki-new.git",
+        "linkPage": "https://lb-squishy.github.io/site-booki-new/"
+    },
+    {
+        "id": "3",
+        "title": "Booki",
+        "description": "Intégration de la page d'accueil responsive d'une agence de voyage avec HTML & CSS à partir d'une maquette figma.",
+        "type": "Formation",
+        "stade": "Terminé",
+        "image": "booki",
+        "alt": "chambre booki",
+        "logos": ["html", "css"],
+        "linkCode": "https://github.com/LB-Squishy/site-booki-new.git",
+        "linkPage": "https://lb-squishy.github.io/site-booki-new/"
+    },
+    {
+        "id": "2",
+        "title": "Booki",
+        "description": "Intégration de la page d'accueil responsive d'une agence de voyage avec HTML & CSS à partir d'une maquette figma.",
+        "type": "Formation",
+        "stade": "Terminé",
+        "image": "booki",
+        "alt": "chambre booki",
+        "logos": ["redux", "sass"],
+        "linkCode": "https://github.com/LB-Squishy/site-booki-new.git",
+        "linkPage": "https://lb-squishy.github.io/site-booki-new/"
+    }
+]
