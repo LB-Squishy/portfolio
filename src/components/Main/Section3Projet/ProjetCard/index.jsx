@@ -44,12 +44,16 @@ function ProjetCard({
                         ))}
                     </div>
                     <div className="card-icons__link">
-                        <a href={linkCode}>
-                            <i className="fa-brands fa-github"></i>
-                        </a>
-                        <a href={linkPage}>
-                            <i className="fa-solid fa-link"></i>
-                        </a>
+                        {linkCode && (
+                            <a href={linkCode}>
+                                <i className="fa-brands fa-github"></i>
+                            </a>
+                        )}
+                        {linkPage && (
+                            <a href={linkPage}>
+                                <i className="fa-solid fa-link"></i>
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>

@@ -5,7 +5,8 @@ import projets from "../../../data/projets.json";
  *
  */
 
-function SectionProjet(title) {
+function SectionProjet() {
+    const projetsReverses = [...projets].reverse();
     return (
         <section id="projet">
             <div className="section-projet-container">
@@ -18,7 +19,7 @@ function SectionProjet(title) {
                     <div className="filtres-container__btn">Terminés</div>
                 </div>
                 <div className="projet-container">
-                    {projets.map((projet) => (
+                    {projetsReverses.map((projet) => (
                         <ProjetCard
                             key={`projet-${projet.id}`}
                             title={projet.title}
