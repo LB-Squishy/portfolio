@@ -38,14 +38,21 @@
         border: 1px solid $primary;
         border-radius: 30px;
         padding: 5px 20px;
+        font-size: 18px;
+        color: $grey;
         &:hover {
-            background-color: $greyLight;
+            background-color: $primary;
             color: $white;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
         }
         &:active {
-            background-color: $white;
+            background-color: $primary;
             color: $black;
+            box-shadow: none;
+        }
+        &.active {
+            background-color: $greyLight;
+            color: $white;
             box-shadow: none;
         }
     }

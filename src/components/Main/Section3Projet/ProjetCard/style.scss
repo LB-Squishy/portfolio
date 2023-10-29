@@ -14,7 +14,7 @@
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
     transition: 0.5s;
     &:hover {
-        height: 400px;
+        height: 420px;
     }
     &__image {
         position: absolute;
@@ -60,7 +60,7 @@
         }
     }
     &:hover .projet-card__content {
-        height: 250px;
+        height: 270px;
         top: 130px;
     }
 }
@@ -68,9 +68,8 @@
 .card-icons {
     &__skills {
         display: flex;
-
         gap: 10px;
-        height: 50px;
+        height: 40px;
         &--style {
             display: flex;
             justify-content: center;
