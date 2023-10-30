@@ -11,58 +11,86 @@
     display: none;
 }
 
-.h3-about {
-    font-size: 20px;
-    color: $greyLight;
-    @include touchpad {
-        font-size: 30px;
-    }
-    @include desktop {
-        font-size: 35px;
+.hidden-mobile {
+    display: none;
+    @include touchpad-S {
+        display: flex;
     }
 }
 
 .section-about-container {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
     color: $greyLight;
-    font-size: 18px;
-    font-weight: 400;
     padding: 0 30px 0 30px;
+    @include touchpad-S {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px 10px;
+    }
+    @include desktop-S {
+        gap: 10px 50px;
+    }
     @include desktop {
-        flex-direction: row;
-        gap: 100px;
         max-width: 1440px;
+    }
+    @include desktop-L {
+        gap: 10px 150px;
+    }
+    &__title {
+        display: flex;
+        align-self: center;
+        grid-row: 2;
+        font-size: 18px;
+        @include touchpad-S {
+            align-self: flex-end;
+            grid-row: 1;
+            grid-column: 1;
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        @include desktop-S {
+            font-size: 30px;
+            padding-bottom: 0;
+        }
     }
     &__text {
         display: flex;
         flex-direction: column;
-        align-self: center;
+        align-self: flex-start;
+        grid-row: 3;
         gap: 20px;
-        width: auto;
-        padding-bottom: 30px;
-        @include desktop {
-            width: 50%;
-            height: auto;
-            padding: 0;
+        font-size: 16px;
+        font-weight: 400;
+        @include touchpad-S {
+            grid-row: 2;
+            grid-column: 1 / span 2;
+            gap: 10px;
+            font-size: 18px;
+            margin: 40px 0;
+        }
+        @include desktop-S {
+            grid-column: 1;
         }
     }
     &__portrait {
-        display: none;
-        @include touchpad {
-            display: flex;
-            align-self: center;
-            height: auto;
-            max-height: 250px;
+        display: flex;
+        align-self: flex-end;
+        justify-self: center;
+        grid-row: 1;
+        height: auto;
+        width: auto;
+        max-height: auto;
+        max-width: 40%;
+        @include touchpad-S {
+            grid-column: 2;
+            max-width: 60%;
         }
-        @include desktop {
-            align-self: end;
-            width: 50%;
-            height: auto;
+        @include desktop-S {
+            grid-row: 1 / span 2;
             max-height: none;
+            max-width: none;
         }
         img {
             max-height: 100%;

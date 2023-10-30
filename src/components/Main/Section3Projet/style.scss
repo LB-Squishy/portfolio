@@ -28,8 +28,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
     padding: 50px 50px 100px 50px;
+    overflow: auto;
+    @include desktop {
+        gap: 30px;
+    }
     &:hover {
         cursor: url("../../../assets/pointer.png"), pointer;
     }
@@ -60,7 +65,22 @@
 
 .projet-container {
     display: grid;
-    grid-template-columns: repeat(3, 6fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     gap: 80px;
+    @include touchpad-S {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px 20px;
+    }
+    @include touchpad {
+        gap: 80px;
+    }
+    @include desktop-S {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 80px 30px;
+    }
+    @include desktop {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 80px 80px;
+    }
 }

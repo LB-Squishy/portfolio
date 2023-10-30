@@ -59,7 +59,7 @@
     &.active {
         top: 0;
     }
-    @include desktop {
+    @include desktop-S {
         right: -350px;
         width: 350px;
         height: 2000px;

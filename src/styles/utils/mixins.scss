@@ -1,13 +1,31 @@
 /*****Media Queries*****/
 
+@mixin mobile-L {
+    @media (min-width: 425px) {
+        @content;
+    }
+}
+
+@mixin touchpad-S {
+    @media (min-width: 650px) {
+        @content;
+    }
+}
+
 @mixin touchpad {
     @media (min-width: 768px) {
         @content;
     }
 }
 
-@mixin desktop {
+@mixin desktop-S {
     @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1200px) {
         @content;
     }
 }

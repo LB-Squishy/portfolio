@@ -37,9 +37,15 @@
     }
     &__logo {
         display: grid;
-        grid-template-columns: repeat(2, 6fr);
+        grid-template-columns: repeat(2, 1fr);
         align-items: center;
         gap: 20px;
+        @include mobile-L {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include touchpad-S {
+            grid-template-columns: repeat(4, 1fr);
+        }
         @include touchpad {
             grid-template-columns: repeat(6, 1fr);
         }

@@ -38,7 +38,7 @@
     {
         "id": "4",
         "title": "Sophie Buel",
-        "description": "Intégration du site d'une architecte. Création d'une modale de connexion et d'une modale de compte utilisateur pour ajout de projets, avec mise en place des appels API correspondants.",
+        "description": "Création d'une modale de connexion et de compte utilisateur pour ajout de projets, avec mise en place des appels API correspondants.",
         "type": "Formation",
         "stade": "Terminé",
         "image": "sophie-bluel",
@@ -50,7 +50,7 @@
     {
         "id": "5",
         "title": "Menu Maker",
-        "description": "Mise en place d'un système de veille, de spécificités fonctionnelles et techniques, réalisation d'un kanban et d'un espace Notion pour le développement d'un site web.",
+        "description": "Mise en place d'une veille, de spécificités fonctionnelles et techniques, d'un kanban et d'un espace Notion pour le développement d'un site web.",
         "type": "Formation",
         "stade": "Terminé",
         "image": "menu-maker",
@@ -110,7 +110,7 @@
     {
         "id": "10",
         "title": "ArgentBank",
-        "description": "Mise en place d'un système d'authentification et de connexion avec appel API et utilisation de Redux. Ecriture d'un Swagger en prévision de l'implémentation des transactions.",
+        "description": "Mise en place d'un système d'authentification et de connexion avec appel API et utilisation de Redux. Ecriture d'un Swagger.",
         "type": "Formation",
         "stade": "Terminé",
         "image": "argent-bank",

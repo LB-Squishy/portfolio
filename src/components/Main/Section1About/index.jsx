@@ -10,19 +10,20 @@ function SectionAbout() {
         <section id="about">
             <h2 className="h2-hidden">A Propos</h2>
             <div className="section-about-container">
+                <h3 className="section-about-container__title">
+                    Bonjour ! <br />
+                    <br />
+                    Je m'appelle Laurent Le Boulbar et je suis Développeur
+                    Front-End !
+                </h3>
                 <div className="section-about-container__text">
-                    <h3 className="h3-about">
-                        Hello ! <br />
-                        Je m'appelle Laurent Le Boulbar et je suis Développeur
-                        Front-End!
-                    </h3>
                     <p>
                         Après diverses expériences en Architecture, de la
                         conception à l'échelle du paysage jusqu'à l'agencement
                         d'intérieur, j'ai pris la décision de me tourner vers ma
                         passion, et de me reconvertir dans le développement web.
                     </p>
-                    <p>
+                    <p className="hidden-mobile">
                         C'est naturellement que j'ai abordé OpenClassroom, tout
                         d'abord en autodidacte, puis au travers une formation
                         intensive de 9 mois qui m'a permis d'acquérir les
