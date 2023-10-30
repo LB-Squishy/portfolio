@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6cc31a93.css",
-    "main.js": "/portfolio/static/js/main.d2c12464.js",
+    "main.css": "/portfolio/static/css/main.0e8fe39f.css",
+    "main.js": "/portfolio/static/js/main.7184a5ed.js",
     "static/media/maison-jungle.jpg": "/portfolio/static/media/maison-jungle.cb8cc1f6e580b26117b4.jpg",
+    "static/media/portrait.png": "/portfolio/static/media/portrait.1e991239507c917c18a6.png",
     "static/media/ohmyfood.jpg": "/portfolio/static/media/ohmyfood.4e7cf3326cf48aa765f6.jpg",
-    "static/media/portrait.png": "/portfolio/static/media/portrait.4eb07eb095374d8057ab.png",
     "static/media/printit.jpg": "/portfolio/static/media/printit.02ddddfa3cf6837896f8.jpg",
     "static/media/kasa.jpg": "/portfolio/static/media/kasa.bae4c58cef6c00797618.jpg",
     "static/media/menu-maker.jpg": "/portfolio/static/media/menu-maker.a000ef2e681363cd85cb.jpg",
@@ -14,11 +14,11 @@
     "static/media/booki.jpg": "/portfolio/static/media/booki.de0a2a0d1cc01bdd733d.jpg",
     "static/media/724events.jpg": "/portfolio/static/media/724events.27b32af60fb9795add4f.jpg",
     "index.html": "/portfolio/index.html",
-    "main.6cc31a93.css.map": "/portfolio/static/css/main.6cc31a93.css.map",
-    "main.d2c12464.js.map": "/portfolio/static/js/main.d2c12464.js.map"
+    "main.0e8fe39f.css.map": "/portfolio/static/css/main.0e8fe39f.css.map",
+    "main.7184a5ed.js.map": "/portfolio/static/js/main.7184a5ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cc31a93.css",
-    "static/js/main.d2c12464.js"
+    "static/css/main.0e8fe39f.css",
+    "static/js/main.7184a5ed.js"
   ]
 }
