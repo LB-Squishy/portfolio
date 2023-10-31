@@ -15,6 +15,7 @@ function Hamburger() {
             <button
                 className={`hamburger-menu ${isMenuActive ? "active" : ""}`}
                 onClick={toggleMenu}
+                aria-label="Navigation"
             >
                 <div className="hamburger-menu__bar bar-top"></div>
                 <div className="hamburger-menu__bar bar-mid"></div>

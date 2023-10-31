@@ -45,12 +45,18 @@ function ProjetCard({
                     </div>
                     <div className="card-icons__link">
                         {linkCode && (
-                            <a href={linkCode}>
+                            <a
+                                href={linkCode}
+                                aria-label="lien vers le code github"
+                            >
                                 <i className="fa-brands fa-github"></i>
                             </a>
                         )}
                         {linkPage && (
-                            <a href={linkPage}>
+                            <a
+                                href={linkPage}
+                                aria-label="lien vers la page en ligne"
+                            >
                                 <i className="fa-solid fa-link"></i>
                             </a>
                         )}
