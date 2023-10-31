@@ -1,0 +1,72 @@
+@import "../../../../styles/utils/mixins.scss";
+@import "../../../../styles/utils/variables.scss";
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.inputBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+    & input,
+    & textarea {
+        margin-top: 10px;
+        padding: 10px 10px 10px;
+        background: transparent;
+        border: 1px dashed $greyLight;
+        border-radius: 5px;
+        font-size: 16px;
+        &:hover {
+            border: 1px solid $primary;
+        }
+        &:focus {
+            background: $white;
+        }
+        &:not(:placeholder-shown) {
+            background: $white;
+        }
+        &::placeholder {
+            color: $greyLight;
+        }
+    }
+    & label {
+        font-weight: 400;
+    }
+}
+
+.textareaBox textarea {
+    height: 130px;
+    resize: none;
+}
+
+.contact-submit-btn {
+    display: flex;
+    border: 1px solid $primary;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: $primary;
+    margin-top: 20px;
+    &:hover {
+        background-color: $primary;
+        color: $white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    }
+    &:active {
+        background-color: $primary;
+        color: $black;
+        box-shadow: none;
+    }
+    &.active {
+        background-color: $greyLight;
+        color: $white;
+        box-shadow: none;
+    }
+}

@@ -1,8 +1,7 @@
 import SectionAbout from "../Main/Section1About";
-import SectionBlog from "../Main/Section4Blog";
 import SectionCompetences from "../Main/Section2Competences";
-import SectionContact from "../Main/Section5Contact";
 import SectionProjet from "../Main/Section3Projet";
+import SectionContact from "../Main/Section4Contact";
 import "./style.scss";
 
 /**
@@ -16,7 +15,6 @@ function Main() {
                 <SectionAbout />
                 <SectionCompetences />
                 <SectionProjet />
-                <SectionBlog />
                 <SectionContact />
             </div>
         </main>

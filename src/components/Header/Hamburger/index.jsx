@@ -40,7 +40,7 @@ function Hamburger() {
                         className="hidden-menu__container--link"
                         onClick={toggleMenu}
                     >
-                        Compétence
+                        Compétences
                     </a>
                 </li>
                 <li>
@@ -49,16 +49,7 @@ function Hamburger() {
                         className="hidden-menu__container--link"
                         onClick={toggleMenu}
                     >
-                        Projet
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="#blog"
-                        className="hidden-menu__container--link"
-                        onClick={toggleMenu}
-                    >
-                        Blog
+                        Projets
                     </a>
                 </li>
                 <li>

@@ -7,7 +7,7 @@
 }
 
 @mixin touchpad-S {
-    @media (min-width: 650px) {
+    @media (min-width: 690px) {
         @content;
     }
 }
