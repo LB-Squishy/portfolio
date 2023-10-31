@@ -67,10 +67,16 @@ function SectionContact() {
                                 Gardons contact sur les différents réseaux.
                             </div>
                             <div className="contact-link__follow--logo">
-                                <a href="https://github.com/LB-Squishy">
+                                <a
+                                    href="https://github.com/LB-Squishy"
+                                    aria-label="lien vers mon github"
+                                >
                                     <i className="fa-brands fa-github"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/in/laurent-lb-7364a6299">
+                                <a
+                                    href="https://www.linkedin.com/in/laurent-lb-7364a6299"
+                                    aria-label="lien vers mon linkedin"
+                                >
                                     <i className="fa-brands fa-linkedin"></i>
                                 </a>
                             </div>
