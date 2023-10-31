@@ -1,5 +1,5 @@
 import "./style.scss";
-import portrait from "../../../assets/portrait.png";
+import portrait from "../../../assets/portrait.webp";
 
 /**
  *

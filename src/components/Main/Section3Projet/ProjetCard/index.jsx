@@ -18,7 +18,7 @@ function ProjetCard({
                 <img
                     src={require("../../../../assets/projets/" +
                         image +
-                        ".jpg")}
+                        ".webp")}
                     alt={alt}
                 />
             </div>
