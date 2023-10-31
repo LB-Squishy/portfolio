@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c4bbb719.css",
-    "main.js": "/portfolio/static/js/main.ce4c525c.js",
-    "static/media/maison-jungle.jpg": "/portfolio/static/media/maison-jungle.cb8cc1f6e580b26117b4.jpg",
-    "static/media/portrait.png": "/portfolio/static/media/portrait.1e991239507c917c18a6.png",
-    "static/media/ohmyfood.jpg": "/portfolio/static/media/ohmyfood.4e7cf3326cf48aa765f6.jpg",
-    "static/media/printit.jpg": "/portfolio/static/media/printit.02ddddfa3cf6837896f8.jpg",
-    "static/media/kasa.jpg": "/portfolio/static/media/kasa.bae4c58cef6c00797618.jpg",
-    "static/media/menu-maker.jpg": "/portfolio/static/media/menu-maker.a000ef2e681363cd85cb.jpg",
-    "static/media/sophie-bluel.jpg": "/portfolio/static/media/sophie-bluel.2b493bfad9a2b5a649a1.jpg",
-    "static/media/nina.jpg": "/portfolio/static/media/nina.f96da55d7c8706136967.jpg",
-    "static/media/argent-bank.jpg": "/portfolio/static/media/argent-bank.c69627d7d8766e2f90c2.jpg",
-    "static/media/booki.jpg": "/portfolio/static/media/booki.de0a2a0d1cc01bdd733d.jpg",
-    "static/media/724events.jpg": "/portfolio/static/media/724events.27b32af60fb9795add4f.jpg",
+    "main.js": "/portfolio/static/js/main.ea27408d.js",
+    "static/media/portrait.webp": "/portfolio/static/media/portrait.3a437f3f891c1076939e.webp",
+    "static/media/maison-jungle.webp": "/portfolio/static/media/maison-jungle.70298d0018f743f0303c.webp",
+    "static/media/sophie-bluel.webp": "/portfolio/static/media/sophie-bluel.3932e3575bacf4b2f4d1.webp",
+    "static/media/ohmyfood.webp": "/portfolio/static/media/ohmyfood.92dfb123fe510fb48fc5.webp",
+    "static/media/printit.webp": "/portfolio/static/media/printit.437268a39862c837e9fc.webp",
+    "static/media/kasa.webp": "/portfolio/static/media/kasa.1e4654ef2f3d2684ba57.webp",
+    "static/media/booki.webp": "/portfolio/static/media/booki.7dfb2fe03431d51b175e.webp",
+    "static/media/nina.webp": "/portfolio/static/media/nina.488b648020bc99c88c5b.webp",
+    "static/media/724events.webp": "/portfolio/static/media/724events.040f33f1590cf2988d02.webp",
+    "static/media/menu-maker.webp": "/portfolio/static/media/menu-maker.429e33ccd2ca43b8a81c.webp",
+    "static/media/argent-bank.webp": "/portfolio/static/media/argent-bank.1b9acbca0eea5701d2b6.webp",
     "index.html": "/portfolio/index.html",
     "main.c4bbb719.css.map": "/portfolio/static/css/main.c4bbb719.css.map",
-    "main.ce4c525c.js.map": "/portfolio/static/js/main.ce4c525c.js.map"
+    "main.ea27408d.js.map": "/portfolio/static/js/main.ea27408d.js.map"
   },
   "entrypoints": [
     "static/css/main.c4bbb719.css",
-    "static/js/main.ce4c525c.js"
+    "static/js/main.ea27408d.js"
   ]
 }
