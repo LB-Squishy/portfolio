@@ -19,10 +19,10 @@
     &__image {
         position: absolute;
         top: 20px;
-        border: solid 1px $primary;
-        border-radius: 12px;
         width: 80%;
         height: 220px;
+        border: solid 1px $primary;
+        border-radius: 12px;
         transition: 0.5s;
         overflow: hidden;
         & img {
@@ -40,13 +40,13 @@
     }
     &__content {
         position: relative;
+        top: 252px;
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: space-between;
         width: 100%;
         height: 30px;
-        top: 252px;
         padding: 0 30px;
         transition: 0.5s;
         overflow: hidden;

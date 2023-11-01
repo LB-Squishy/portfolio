@@ -3,7 +3,7 @@ import ProjetCard from "./ProjetCard";
 import projets from "../../../data/projets.json";
 import { useState } from "react";
 /**
- *
+ * Composant créant la section Projet
  */
 
 function SectionProjet() {

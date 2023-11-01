@@ -67,67 +67,44 @@
         grid-template-rows: 1fr 1fr;
         height: 500px;
     }
-    &__telephone {
+    & .link-global-style {
         display: flex;
         width: 260px;
-        grid-row: 1;
-        grid-column: 1;
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
         border: 1px solid $greyLight2;
         padding: 20px;
+        transition: background-color 0.6s;
+        &:hover {
+            cursor: url("../../../assets/pointer.png"), pointer;
+            background-color: $greyLight;
+        }
+    }
+    &__telephone {
+        grid-row: 1;
+        grid-column: 1;
         @include touchpad-S {
             border-top-left-radius: 20px;
         }
-        &:hover {
-            cursor: url("../../../assets/pointer.png"), pointer;
-        }
     }
     &__email {
-        display: flex;
-        width: 260px;
         grid-row: 1;
         grid-column: 2;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-        border: 1px solid $greyLight2;
-        padding: 20px;
         @include touchpad-S {
             border-top-right-radius: 20px;
         }
-        &:hover {
-            cursor: url("../../../assets/pointer.png"), pointer;
-        }
     }
     &__adresse {
-        display: flex;
-        width: 260px;
         grid-row: 2;
         grid-column: 1;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-        border: 1px solid $greyLight2;
-        padding: 20px;
         @include touchpad-S {
             border-bottom-left-radius: 20px;
         }
-        &:hover {
-            cursor: url("../../../assets/pointer.png"), pointer;
-        }
     }
     &__follow {
-        display: flex;
-        width: 260px;
         grid-row: 2;
         grid-column: 2;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-        border: 1px solid $greyLight2;
-        padding: 20px;
         @include touchpad-S {
             border-bottom-right-radius: 20px;
         }

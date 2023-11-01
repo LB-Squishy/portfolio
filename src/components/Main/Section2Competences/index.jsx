@@ -3,10 +3,10 @@ import CompetencesLogo from "./CompetencesLogo";
 import competenceLogoData from "../../../data/competencesLogo.json";
 
 /**
- *
+ * Composant créant la section compétences
  */
 
-function SectionCompetences() {
+export default function SectionCompetences() {
     return (
         <section id="competences">
             <div className="section-competences-container">
@@ -27,7 +27,6 @@ function SectionCompetences() {
                         <p>Methodologie Agile</p>
                         <p>Référencement SEO</p>
                         <p>Accessibilité</p>
-                        <p>API Rest</p>
                     </div>
                 </div>
                 <div className="softskills-line"></div>
@@ -43,5 +42,3 @@ function SectionCompetences() {
         </section>
     );
 }
-
-export default SectionCompetences;

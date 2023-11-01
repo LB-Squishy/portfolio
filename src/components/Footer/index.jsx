@@ -1,17 +1,15 @@
 import "./style.scss";
 
 /**
- *
+ * Composant créant le pied de page
  */
 
-function Footer() {
+export default function Footer() {
     return (
         <footer>
             <div className="footer-container">
-                ©2023 Laurent Le Boulbar. All rights reserved
+                © 2023 - 2024 | Laurent Le Boulbar | All rights reserved
             </div>
         </footer>
     );
 }
-
-export default Footer;

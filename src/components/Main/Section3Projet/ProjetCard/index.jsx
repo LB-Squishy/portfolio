@@ -1,9 +1,16 @@
 import "./style.scss";
 /**
- *
+ * Composant créant la card projet
+ * @param {string} title - titre du projet
+ * @param {string} description - description du projet
+ * @param {string} image - nom de l'image (fournir un format webp)
+ * @param {string} alt - alt de l image
+ * @param {string} linkPage - lien vers la page active
+ * @param {string} linkCode - lien vers le code github
+ * @param {string} logos - tableau de logo incluant des strings des logos au format png
  */
 
-function ProjetCard({
+export default function ProjetCard({
     title,
     description,
     image,
@@ -48,6 +55,7 @@ function ProjetCard({
                             <a
                                 href={linkCode}
                                 aria-label="lien vers le code github"
+                                target="blank"
                             >
                                 <i className="fa-brands fa-github"></i>
                             </a>
@@ -56,6 +64,7 @@ function ProjetCard({
                             <a
                                 href={linkPage}
                                 aria-label="lien vers la page en ligne"
+                                target="blank"
                             >
                                 <i className="fa-solid fa-link"></i>
                             </a>
@@ -66,5 +75,3 @@ function ProjetCard({
         </div>
     );
 }
-
-export default ProjetCard;

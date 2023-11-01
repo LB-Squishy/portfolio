@@ -5,10 +5,10 @@ import SectionContact from "../Main/Section4Contact";
 import "./style.scss";
 
 /**
- *
+ * Composant créant le contenu de main
  */
 
-function Main() {
+export default function Main() {
     return (
         <main>
             <div className="main-container">
@@ -20,5 +20,3 @@ function Main() {
         </main>
     );
 }
-
-export default Main;

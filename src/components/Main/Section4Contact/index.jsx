@@ -2,7 +2,7 @@ import ContactForm from "./ContactForm";
 import "./style.scss";
 
 /**
- *
+ * Composant créant la section contact
  */
 
 function SectionContact() {
@@ -16,8 +16,9 @@ function SectionContact() {
                     </div>
                     <div className="contact-link">
                         <a
-                            className="contact-link__telephone"
+                            className="contact-link__telephone link-global-style"
                             href="tel:+33630076092"
+                            target="blank"
                         >
                             <div className="contact-link-logo">
                                 <i className="fa-solid fa-phone"></i>
@@ -32,8 +33,9 @@ function SectionContact() {
                             </div>
                         </a>
                         <a
-                            className="contact-link__email"
+                            className="contact-link__email link-global-style"
                             href="mailto:laurentleboulbar@gmail.com"
+                            target="blank"
                         >
                             <div className="contact-link-logo">
                                 <i className="fa-solid fa-envelope"></i>
@@ -46,8 +48,9 @@ function SectionContact() {
                             </div>
                         </a>
                         <a
-                            className="contact-link__adresse"
+                            className="contact-link__adresse link-global-style"
                             href="https://maps.app.goo.gl/MVG1D4BV7NU9fMtN7"
+                            target="blank"
                         >
                             <div className="contact-link-logo">
                                 <i className="fa-solid fa-location-dot"></i>
@@ -59,23 +62,28 @@ function SectionContact() {
                                 56150 Guénin
                             </div>
                         </a>
-                        <div className="contact-link__follow">
+                        <div className="contact-link__follow link-global-style">
                             <div className="contact-link__follow--title">
                                 Suivez-moi
                             </div>
                             <div className="contact-link__follow--text">
-                                Gardons contact sur les différents réseaux.
+                                Gardons contact sur les différents réseaux.{" "}
+                                <br />
+                                <br />
+                                Lien ci-dessous:
                             </div>
                             <div className="contact-link__follow--logo">
                                 <a
                                     href="https://github.com/LB-Squishy"
                                     aria-label="lien vers mon github"
+                                    target="blank"
                                 >
                                     <i className="fa-brands fa-github"></i>
                                 </a>
                                 <a
                                     href="https://www.linkedin.com/in/laurent-lb-7364a6299"
                                     aria-label="lien vers mon linkedin"
+                                    target="blank"
                                 >
                                     <i className="fa-brands fa-linkedin"></i>
                                 </a>

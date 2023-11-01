@@ -2,10 +2,10 @@ import { useState } from "react";
 import "./style.scss";
 
 /**
- *
+ * Composant créant un menu hamburger
  */
 
-function Hamburger() {
+export default function Hamburger() {
     const [isMenuActive, setIsMenuActive] = useState(false);
     const toggleMenu = () => {
         setIsMenuActive(!isMenuActive);
@@ -66,5 +66,3 @@ function Hamburger() {
         </>
     );
 }
-
-export default Hamburger;

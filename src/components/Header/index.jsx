@@ -2,10 +2,10 @@ import Hamburger from "./Hamburger";
 import "./style.scss";
 
 /**
- *
+ * Composant créant l'en-tête
  */
 
-function Header() {
+export default function Header() {
     return (
         <>
             <header>
@@ -26,5 +26,3 @@ function Header() {
         </>
     );
 }
-
-export default Header;

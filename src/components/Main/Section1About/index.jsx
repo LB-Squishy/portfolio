@@ -2,10 +2,10 @@ import "./style.scss";
 import portrait from "../../../assets/portrait.webp";
 
 /**
- *
+ * Composant créant la section about
  */
 
-function SectionAbout() {
+export default function SectionAbout() {
     return (
         <section id="about">
             <h2 className="h2-hidden">A Propos</h2>
@@ -25,16 +25,15 @@ function SectionAbout() {
                     </p>
                     <p className="hidden-mobile">
                         C'est naturellement que j'ai abordé OpenClassroom, tout
-                        d'abord en autodidacte, puis au travers une formation
-                        intensive de 9 mois qui m'a permis d'acquérir les
-                        compétences nécessaires afin d'en faire mon métier.
+                        d'abord en autodidacte, puis au travers une formation de
+                        9 mois qui m'a permis d'acquérir les compétences
+                        nécessaires afin d'en faire mon métier.
                     </p>
                     <p>
-                        N'hésitez pas à parcourir mon portfolio pour découvrir
-                        mes compétences et mon univers. Si vous souhaitez
-                        échanger, n'hésitez pas à me contacter, j'ai plaisir à
-                        travailler avec des esprits créatifs et à échanger
-                        autour de projets !
+                        Parcourez mon portfolio. Et si vous souhaitez échanger,
+                        n'hésitez pas à me contacter, j'ai plaisir à travailler
+                        avec des esprits créatifs et à échanger autour de
+                        projets !
                     </p>
                 </div>
                 <div className="section-about-container__portrait">
@@ -44,5 +43,3 @@ function SectionAbout() {
         </section>
     );
 }
-
-export default SectionAbout;

@@ -6,6 +6,10 @@
     z-index: 2;
     height: 35px;
     width: 35px;
+    border: solid 2px;
+    border-color: $white;
+    border-radius: 5px;
+    transition: border-color 0.4s;
     &:hover {
         border: solid 2px;
         border-color: $greyLight;

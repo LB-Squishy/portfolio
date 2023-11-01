@@ -3,10 +3,10 @@ import "./style.scss";
 import emailjs from "@emailjs/browser";
 
 /**
- *
+ * Composant créant le formulaire et gérant son envoi avec email.js
  */
 
-function ContactForm() {
+export default function ContactForm() {
     const form = useRef();
     const [isSending, setIsSending] = useState(false);
     const sendForm = (e) => {
@@ -74,5 +74,3 @@ function ContactForm() {
         </form>
     );
 }
-
-export default ContactForm;

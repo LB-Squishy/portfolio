@@ -1,10 +1,12 @@
 import "./style.scss";
 
 /**
- *
+ * Composant stylisant les logos de la section compétence
+ * @param {string} image - nom de l'image (fournir un format png)
+ * @param {string} alt - alt du logo
  */
 
-function CompetencesLogo({ image, alt }) {
+export default function CompetencesLogo({ image, alt }) {
     return (
         <div className="logo-style">
             <img
@@ -14,5 +16,3 @@ function CompetencesLogo({ image, alt }) {
         </div>
     );
 }
-
-export default CompetencesLogo;
