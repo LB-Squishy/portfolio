@@ -81,7 +81,7 @@ function SectionContact() {
                                     <i className="fa-brands fa-github"></i>
                                 </a>
                                 <a
-                                    href="https://www.linkedin.com/in/laurent-lb-7364a6299"
+                                    href="https://www.linkedin.com/in/laurentleboulbar"
                                     aria-label="lien vers mon linkedin"
                                     target="blank"
                                 >
