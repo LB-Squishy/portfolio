@@ -64,7 +64,7 @@
         "title": "Maison Jungle",
         "description": "Réalisation d'un système de panier type Shopping List avec calcul automatique du montant et système de tri.",
         "type": "Personnel",
-        "stade": "",
+        "stade": "Terminé",
         "image": "maison-jungle",
         "alt": "plante de jungle",
         "logos": ["html", "css", "javascript"],
@@ -117,6 +117,18 @@
         "alt": "argent qui pousse",
         "logos": ["react", "sass", "redux", "swagger"],
         "linkCode": "https://github.com/LB-Squishy/ArgentBank",
+        "linkPage": ""
+    },
+    {
+        "id": "11",
+        "title": "GoFullStackShop",
+        "description": "Découverte de la pile MERN. Mise en place d'une API gérant des ajouts et suppression de produits avec système d'authentification et gestion du token.",
+        "type": "Personnel",
+        "stade": "",
+        "image": "GoFullStackShop",
+        "alt": "Logo MERN",
+        "logos": ["react", "nodejs", "express", "mongodb"],
+        "linkCode": "https://github.com/LB-Squishy/GoFullStackShop",
         "linkPage": ""
     }
 ]

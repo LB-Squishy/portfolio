@@ -51,12 +51,12 @@
     },
     {
         "id": "11",
-        "image": "vscode",
-        "alt": "logovscode"
+        "image": "express",
+        "alt": "logoexpress"
     },
     {
         "id": "12",
-        "image": "indesign",
-        "alt": "logoindesign"
+        "image": "mongodb",
+        "alt": "logomongodb"
     }
 ]
