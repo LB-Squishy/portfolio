@@ -51,12 +51,12 @@
     },
     {
         "id": "11",
-        "image": "express",
-        "alt": "logoexpress"
+        "image": "php",
+        "alt": "logophp"
     },
     {
         "id": "12",
-        "image": "mongodb",
-        "alt": "logomongodb"
+        "image": "mysql",
+        "alt": "logomysql"
     }
 ]

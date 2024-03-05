@@ -130,5 +130,17 @@
         "logos": ["react", "nodejs", "express", "mongodb"],
         "linkCode": "https://github.com/LB-Squishy/GoFullStackShop",
         "linkPage": ""
+    },
+    {
+        "id": "12",
+        "title": "CookMania",
+        "description": "Découverte de PHP et de MySQL au travers d'un gestionnaire de recette de cuisine intégrant une administration par utilisateur.",
+        "type": "Personnel",
+        "stade": "Terminé",
+        "image": "cookmania",
+        "alt": "Livre de recettes",
+        "logos": ["php", "mysql"],
+        "linkCode": "https://github.com/LB-Squishy/CookMania",
+        "linkPage": ""
     }
 ]
